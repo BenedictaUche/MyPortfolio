@@ -105,7 +105,7 @@ export const data = {
     {
       name: "Prodile",
       description:
-        "A website to auction photographs and other amazing artworks.",
+        "A website to connect farmers with consumers",
       techUsed: ["NextJs", "TailwindCSS", "TanstackQuery", "FramerMotion", "ShadCN"],
       imgURL: `${prodile}`,
       repoURL: "",
