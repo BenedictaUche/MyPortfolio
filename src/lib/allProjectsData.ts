@@ -79,6 +79,7 @@ export const data = {
       name: "Kenesglow Portfolio",
       description: "A portfolio website showcasing my services and brand",
       imgURL: `${kenesglow}`,
+      repoURL: "https://github.com/BenedictaUche/Kenesglow",
       hostedURL: "https://kenesglow.vercel.app/",
       featured: false,
       techUsed: ["React", "Typescript", "Tailwindcss", "Framer Motion"]
