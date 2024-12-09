@@ -12,6 +12,7 @@ import divinecare from "../../public/images/divinecare.png";
 import eventhive from "../../public/images/eventhive.png";
 import moviebox from "../../public/images/moviebox.png"
 import shortly from "../../public/images/shortly.png"
+import kenesglow from "../../public/images/kenesglow.png"
 
 export const data = {
   experience: [
@@ -74,6 +75,14 @@ export const data = {
   ],
 
   landingPageProjects: [
+    {
+      name: "Kenesglow Portfolio",
+      description: "A portfolio website showcasing my services and brand",
+      imgUrl: `${kenesglow}`,
+      hostedURL: "https://kenesglow.vercel.app/",
+      featured: false,
+      techUsed: ["React", "Typescript", "Tailwindcss", "Framer Motion"]
+    },
     {
       name: "Prise",
       description: "A platform to manage finances of students, your school, cafes",
