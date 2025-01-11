@@ -13,7 +13,7 @@ import eventhive from "../../public/images/eventhive.png";
 import moviebox from "../../public/images/moviebox.png";
 import shortly from "../../public/images/shortly.png";
 import kenesglow from "../../public/images/kenesglow.png";
-import ectype from "../../public/images/ectype.png";
+import ectype from "../../public/images/ectype1.png";
 
 export const data = {
   experience: [
