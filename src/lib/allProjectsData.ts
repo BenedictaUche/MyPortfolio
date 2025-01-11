@@ -10,9 +10,10 @@ import ecom from "../../public/images/ecom.png";
 import bloodSaver from "../../public/images/bloodsaverhome.png";
 import divinecare from "../../public/images/divinecare.png";
 import eventhive from "../../public/images/eventhive.png";
-import moviebox from "../../public/images/moviebox.png"
-import shortly from "../../public/images/shortly.png"
-import kenesglow from "../../public/images/kenesglow.png"
+import moviebox from "../../public/images/moviebox.png";
+import shortly from "../../public/images/shortly.png";
+import kenesglow from "../../public/images/kenesglow.png";
+import ectype from "../../public/images/ectype.png";
 
 export const data = {
   experience: [
@@ -91,6 +92,14 @@ export const data = {
       hostedURL: "https://www.prise.africa/",
       featured: true,
       techUsed: ["Angular", "SCSS", "TypeScript", "Postman"],
+    },
+    {
+      name: "Ectype",
+      description: "A platform that helps you manage multiple trading accounts, seamlessly and with ease",
+      imgURL: `${ectype}`,
+      hostedURL: "https://www.ectype.finance/",
+      featured: true,
+      techUsed: ["Nextjs", "Typescript", "TailwindCSS", "Tanstack Query", "Shadcn"]
     },
     {
         name: "Mencer",
