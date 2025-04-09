@@ -1,19 +1,24 @@
-import prise from "../../public/images/prise.png";
-import mencer from "../../public/images/mencer.png";
-import space from "../../public/images/space-home.png";
-import awesomeFresh from "../../public/images/solution.png";
-import prodile from "../../public/images/prodile.png";
-import getLinked from "../../public/images/getlinked.png";
-import metabnb from "../../public/images/metabnb.png";
-import spicyGuitar from "../../public/images/spicy-guitar.png";
-import ecom from "../../public/images/ecom.png";
-import bloodSaver from "../../public/images/bloodsaverhome.png";
-import divinecare from "../../public/images/divinecare.png";
-import eventhive from "../../public/images/eventhive.png";
-import moviebox from "../../public/images/moviebox.png";
-import shortly from "../../public/images/shortly.png";
-import kenesglow from "../../public/images/kenesglow.png";
-import ectype from "../../public/images/ectype1.png";
+import prise from "/images/prise.png";
+import mencer from "/images/mencer.png";
+import space from "/images/space-home.png";
+import awesomeFresh from "/images/solution.png";
+import prodile from "/images/prodile.png";
+import getLinked from "/images/getlinked.png";
+import metabnb from "/images/metabnb.png";
+import spicyGuitar from "/images/spicy-guitar.png";
+import ecom from "/images/ecom.png";
+import bloodSaver from "/images/bloodsaverhome.png";
+import divinecare from "/images/divinecare.png";
+import eventhive from "/images/eventhive.png";
+import moviebox from "/images/moviebox.png";
+import shortly from "/images/shortly.png";
+import kenesglow from "/images/kenesglow.png";
+import ectype from "/images/ectype1.png";
+import mantaHq from "/images/mantaHq.png";
+import pha from "/images/pha.png";
+import peda from "/images/peda.png";
+import keneWedding from "/images/keneWedding.png";
+import consultia from "/images/consultia.png";
 
 export const data = {
   experience: [
@@ -77,8 +82,25 @@ export const data = {
 
   landingPageProjects: [
     {
+      name: "MantaHq",
+      description: "A low code platform for creating and managing APIs.",
+      imgURL: `${mantaHq}`,
+      hostedUrl: "https://www.mantahq.com/",
+      featured: true,
+      techUsed: ["React", "Typescript", "SCSS", "Zod", "Tanstack Query"],
+    },
+    {
+      name: "Consultia",
+      description: "A platform that connects consultants with clients in need of their expertise.",
+      imgURL: `${consultia}`,
+      hostedURL: "https://client.consultia.africa/auth/login",
+      featured: true,
+      techUsed: ["NextJS", "Typescript", "TailwindCSS", "Tanstack Query"],
+
+    },
+    {
       name: "Kenesglow Portfolio",
-      description: "A portfolio website showcasing my services and brand",
+      description: "A portfolio website showcasing an influencer's services and brand",
       imgURL: `${kenesglow}`,
       repoURL: "https://github.com/BenedictaUche/Kenesglow",
       hostedURL: "https://kenesglow.vercel.app/",
@@ -102,26 +124,6 @@ export const data = {
       techUsed: ["Nextjs", "Typescript", "TailwindCSS", "Tanstack Query", "Shadcn"]
     },
     {
-        name: "Mencer",
-        description: "A decentralized platform that helps transform web3 beginners to pro",
-        techUsed: ["React.js", "TailwindCSS", "ShadCN", "Motoko", "ShadCN"],
-        imgURL: `${mencer}`,
-        repoURL: "https://github.com/TryYourBestAndLeaveTheRest/mencer_show",
-        hostedURL: "https://www.mencer.io/",
-        featured: true,
-
-    },
-    {
-        name: "AwesomeFresh",
-        description: "A landing page for an Agricultural firm",
-        techUsed: ["React.js", "TailwindCSS", "ShadCN", "Motoko", "ShadCN"],
-        imgURL: `${awesomeFresh}`,
-        repoURL: "https://github.com/BenedictaUche/awesomefresh",
-        hostedURL: "https://awesomefresh.vercel.app/",
-        featured: false,
-
-    },
-    {
       name: "Prodile",
       description:
         "A website to connect farmers with consumers",
@@ -140,6 +142,42 @@ export const data = {
         repoURL: "",
         hostedURL: "https://spicy-guitar.vercel.app/",
         featured: true,
+    },
+    {
+        name: "Mencer",
+        description: "A decentralized platform that helps transform web3 beginners to pro",
+        techUsed: ["React.js", "TailwindCSS", "ShadCN", "Motoko", "ShadCN"],
+        imgURL: `${mencer}`,
+        repoURL: "https://github.com/TryYourBestAndLeaveTheRest/mencer_show",
+        hostedURL: "https://www.mencer.io/",
+        featured: true,
+
+    },
+    {
+      name: "Post Harvest Africa (PHA)",
+      description: "Empowers farmers, reducing food losses, and transforming agribusinesses across the continent.",
+      techUsed: ["Wordpress"],
+      imgURL: `${pha}`,
+      hostedURL: "https://postharvestafrica.com/",
+      featured: false,
+    },
+    {
+      name: "PEDA",
+      description: "Empowers Nigerian exporters to access global markets and grow their businesses.",
+      techUsed: ["Wordpress"],
+      imgURL: `${peda}`,
+      hostedURL: "https://peda.africa/",
+      featured: false,
+    },
+    {
+        name: "AwesomeFresh",
+        description: "A landing page for an Agricultural firm",
+        techUsed: ["React.js", "TailwindCSS", "ShadCN", "Motoko", "ShadCN"],
+        imgURL: `${awesomeFresh}`,
+        repoURL: "https://github.com/BenedictaUche/awesomefresh",
+        hostedURL: "https://awesomefresh.vercel.app/",
+        featured: false,
+
     },
     {
         name: "ecom",
@@ -257,6 +295,11 @@ export const data = {
   ],
 
   liveProjects: [
+    {
+      url: "https://www.mantahq.com/",
+      title: "MantaHq",
+      description: "A low code platform for creating and managing APIs.",
+    },
     {
       url: "https://www.prise.africa/",
       title: "Prise",

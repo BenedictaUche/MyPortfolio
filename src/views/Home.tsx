@@ -22,7 +22,6 @@ const item = {
     opacity: 1,
   },
 };
-// FRAMER MOTION
 
 const Home = () => {
   // Get the context value and check for null

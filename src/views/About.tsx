@@ -3,7 +3,7 @@ import { useInView } from "framer-motion";
 import { Tooltip } from "@mui/material";
 import { data } from "../lib/allProjectsData";
 import "../styles/About.css";
-import me from "../assets/me2.png";
+import me from "/images/profilepic.jpg";
 
 interface DivProps {
     children: ReactNode;
